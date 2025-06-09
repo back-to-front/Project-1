@@ -58,3 +58,12 @@ main .right img {
     margin-left: 200px;
     background-color: lightgrey;
 }
+
+.box {
+    margin: auto 300px;
+    border: 1px solid black;
+}
+
+form {
+    padding: 25px;
+}
