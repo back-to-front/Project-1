@@ -36,3 +36,8 @@ main .right img {
     width: 500px;
     border-radius: 400px;
 }
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+}
