@@ -7,3 +7,32 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+main {
+    background-color: #deebee;
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+main .left h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+main .left h3 span {
+    color: purple;
+}
+
+main .left p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+main .right img {
+    width: 500px;
+    border-radius: 400px;
+}
