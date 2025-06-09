@@ -40,6 +40,7 @@ main .right img {
 .section-title {
     text-align: center;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 
 .column-heading {
@@ -47,6 +48,10 @@ main .right img {
     font-weight: 300;
     letter-spacing: 1px;
     margin: 1rem 0;
+}
+
+#portfolio {
+    background-color: #deebee;
 }
 
 .carousel-text {
