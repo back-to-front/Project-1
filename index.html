@@ -89,11 +89,42 @@
       </section>
     </section>
 
-    <section class="container about" id="about">
-      <h2 class="col col-12 my-4 section-title">About Me</h2>
+    <section class="container-fluid pb-4 about" id="about">
+      <section class="container">
+        <h2 class="col col-12 my-4 section-title">About Me</h2>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">About My Work</h5>
+                <p class="card-text">
+                  I’m a developer passionate about crafting accessible,
+                  pixel-perfect user interfaces that blend thoughtful design
+                  with robust engineering. My favorite work lies at the
+                  intersection of design and development, creating experiences
+                  that not only look great but are meticulously built for
+                  performance and usability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
-    <section class="container-fluid pb-5" id="portfolio">
+    <section class="container-fluid pb-4" id="portfolio">
       <section class="container">
         <h2 class="col col-12 my-4 section-title">Portfolio</h2>
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -182,36 +213,40 @@
       </section>
     </section>
 
-    <section class="container" id="feedback">
-      <h2 class="col col-12 my-4 section-title">Feedback</h2>
-      <div class="feedback-box">
-        <form>
-          <div class="mb-3">
-            <label for="form-name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="form-name" />
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              required
-            />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
+    <section class="container-fluid pb-4" id="feedback">
+      <section class="container">
+        <h2 class="col col-12 my-4 section-title">Feedback</h2>
+        <div class="feedback-box">
+          <form>
+            <div class="mb-3">
+              <label for="form-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="form-name" />
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="form-message" class="form-label">Message</label>
-            <input class="form-control" id="form-message" />
-          </div>
-          <button type="submit" class="btn btn-outline-primary">Submit</button>
-        </form>
-      </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                required
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="form-message" class="form-label">Message</label>
+              <input class="form-control" id="form-message" />
+            </div>
+            <button type="submit" class="btn btn-outline-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
     </section>
 
     <footer class="mt-4">

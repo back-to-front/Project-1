@@ -50,9 +50,11 @@ main .right img {
     margin: 1rem 0;
 }
 
-#portfolio {
+#about, #feedback {
     background-color: #deebee;
 }
+
+
 
 .carousel-text {
     color: black;
@@ -62,6 +64,8 @@ main .right img {
     width: 500px;
     margin-left: 200px;
     background-color: lightgrey;
+    opacity: 70%;
+    border-radius: 25px;
 }
 
 .feedback-box {
