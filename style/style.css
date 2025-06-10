@@ -64,9 +64,10 @@ main .right img {
     background-color: lightgrey;
 }
 
-.box {
+.feedback-box {
     margin: auto 300px;
     border: 1px solid black;
+    border-radius: 25px;
 }
 
 form {
