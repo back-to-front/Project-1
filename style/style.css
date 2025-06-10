@@ -8,6 +8,14 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.name-nav {
+    color: purple;
+}
+
+.name-nav:hover {
+    color: purple;
+}
+
 main {
     background-color: #deebee;
     padding: 90px 85px;
@@ -41,6 +49,7 @@ main .right img {
     text-align: center;
     text-transform: uppercase;
     padding-top: 15px;
+    color: purple;
 }
 
 .column-heading {
@@ -76,4 +85,8 @@ main .right img {
 
 form {
     padding: 25px;
+}
+
+.foot-name {
+    color: purple;
 }
