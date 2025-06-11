@@ -79,7 +79,6 @@ main .right img {
 }
 
 .feedback-box {
-    margin: auto 300px;
     border: 1px solid black;
     border-radius: 25px;
 }
@@ -90,4 +89,28 @@ form {
 
 .foot-name {
     color: purple;
+}
+
+@media screen and (min-width: 320px) {
+    .feedback-box {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .feedback-box {
+        margin: auto 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .feedback-box {
+        margin: auto 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .feedback-box {
+        margin: auto 300px;
+    }
 }
