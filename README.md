@@ -4,6 +4,12 @@
 
 https://back-to-front.github.io/Project-1/
 
+## User Stories
+
+1. As a customer, I want too learn about this freelancer, so that I can hire them to make a website.
+2. As a user, I want to be informed, so that I can see how much this person cost.
+3. As a customer, I want to look at this website, so that I can see how there web design is.
+
 ## Details
 
 - All images are from pexels.com None of the images used were taken or made my me
